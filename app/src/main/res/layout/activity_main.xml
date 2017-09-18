@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brodie.freemaccas.MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/iv_prize"
+        android:contentDescription="A winner is you"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bigmac"
+        />
+
+    <LinearLayout
+        android:id="@+id/ring_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingStart="186dp"
+        android:paddingLeft="186dp"
+        android:paddingBottom="23dp">
+        <ProgressBar
+            android:id="@+id/circleBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="180"
+            android:progress="0"
+            android:progressDrawable="@drawable/timer_ring" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="8dp"
+        android:paddingStart="173dp"
+        android:paddingLeft="173dp"
+        android:text="2:32"/>
+
+    <TextView
+        android:id="@+id/tv_systime"
+        android:textSize="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_timer"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="8dp"
+        android:paddingStart="170dp"
+        android:paddingLeft="170dp"
+        android:text="12 09 17 05:10pm"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="62dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button_redeem"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:alpha="0"
+            android:onClick="redeemItem"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

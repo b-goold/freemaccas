@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Free Maccas</string>
+
+    <string name="applepie">Apple Pie</string>
+    <string name="baconegg">Bacon and Egg</string>
+    <string name="bigmac">Big Mac</string>
+    <string name="cheeseburger">Cheeseburger</string>
+    <string name="frozendrink">Frozen Drink</string>
+    <string name="fruitbag">Fruit Bag</string>
+    <string name="hamandcheese">Ham and Cheese</string>
+    <string name="hamburger">Hamburger</string>
+    <string name="mcchicken">McChicken</string>
+    <string name="quarterpounder">Quarter Pounder</string>
+    <string name="sausageegg">Sausage and Egg McMuffin</string>
+    <string name="sausagemcmuffin">Sausage McMuffin</string>
+    <string name="smalldrink">Small Drink</string>
+    <string name="smallfries">Small Fries</string>
+    <string name="smallcoffee">Small Coffee</string>
+    <string name="smalltea">Small Tea</string>
+    <string name="smallsundae">Small Sundae</string>
+</resources>

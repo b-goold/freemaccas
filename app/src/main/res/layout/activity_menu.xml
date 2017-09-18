@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="top|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_applepie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/applepie"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_baconegg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/baconegg"
+                    android:onClick="menuClick"/>
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_bigmac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bigmac"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_cheeseburger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cheeseburger"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_frozendrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/frozendrink"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_fruitbag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fruitbag"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_hamandcheese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hamandcheese"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_hamburger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hamburger"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_mcchicken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mcchicken"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_quarterpounder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quarterpounder"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_sausageegg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sausageegg"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_sausagemcmuffin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sausagemcmuffin"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_smalldrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smalldrink"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_smallfries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smallfries"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_smallcoffee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smallcoffee"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_smalltea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smalltea"
+                    android:onClick="menuClick"/>
+
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/button_smallsundae"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smallsundae"
+                    android:onClick="menuClick"/>
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>
